@@ -9,7 +9,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-dark py-3 shadow-sm">
         <div className="container">
-          <NavLink className="navbar-brand fw-bold fs-4" to="/">
+          <NavLink className="navbar-brand fw-bold fs-4" to="/commerce-website">
             Hybrid Fashion
           </NavLink>
           <button
