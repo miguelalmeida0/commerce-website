@@ -9,7 +9,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-dark py-3 shadow-sm">
         <div className="container">
-          <NavLink className="navbar-brand fw-bold fs-4" to="/commerce-website">
+          <NavLink className="navbar-brand fw-bold fs-4" to="/">
             Hybrid Fashion
           </NavLink>
           <button
@@ -26,7 +26,11 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <NavLink
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/commerce-website"
+                >
                   Home
                 </NavLink>
               </li>
