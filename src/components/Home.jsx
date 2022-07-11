@@ -6,7 +6,7 @@ export default function Home() {
     <div className="hero">
       <div className="card bg-dark text-white border-0">
         <img
-          src="./commerce-website/assets/bg.jpg"
+          src="./assets/bg.jpg"
           className="card-img"
           alt="Fashion image"
           height="550px"

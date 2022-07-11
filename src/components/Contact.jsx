@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="row">
             <div className="col-md 5">
               <img
-                src="/assets/contact.jpg"
+                src="./assets/contact.jpg"
                 alt=""
                 className="rounded mx-auto d-block"
                 width="950px"
